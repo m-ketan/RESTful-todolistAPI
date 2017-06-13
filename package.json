@@ -1,0 +1,31 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todolistAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-ketan/RESTful-todolistAPI.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Ketan Malwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-ketan/RESTful-todolistAPI/issues"
+  },
+  "homepage": "https://github.com/m-ketan/RESTful-todolistAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6"
+  }
+}
